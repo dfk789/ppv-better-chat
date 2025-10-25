@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "PPV Chat Enhancer",
+  "version": "0.1.0",
+  "description": "Enhances PPV.to chat with blocking, filtering, team badges, and custom emoji.",
+  "content_scripts": [
+    {
+      "matches": ["https://ppv.to/live/*"],
+      "js": ["content/chat-enhancer.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": [],
+  "host_permissions": ["https://api.betterttv.net/*", "https://api.7tv.app/*", "https://cdn.betterttv.net/*", "https://cdn.7tv.app/*"]
+}
