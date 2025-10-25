@@ -1,0 +1,13 @@
+{
+  "name": "ppv-better-chat",
+  "version": "0.1.0",
+  "description": "Browser extension and userscript to enhance PPV.to chat with moderation tools, team badges, and custom emoji integration.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "lint": "echo 'No linting configured'"
+  },
+  "keywords": ["ppv", "chat", "userscript", "extension"],
+  "author": "",
+  "license": "MIT"
+}
